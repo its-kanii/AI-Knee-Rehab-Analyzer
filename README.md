@@ -26,12 +26,10 @@ performance.
 
 ## Demo Video
 
-```{=html}
-<video src="knee_rehab_demo.mp4" controls width="600">
-```
-```{=html}
-</video>
-```
+## Demo Video
+
+[▶️ Watch Demo](./knee_rehab_demo.mp4)
+
 If the video does not play, download it from the repository and view
 locally.
 
