@@ -26,9 +26,7 @@ performance.
 
 ## Demo Video
 
-## Demo Video
-
-[▶️ Watch Demo](./knee_rehab_demo.mp4)
+[▶️ Watch Demo](https://drive.google.com/file/d/11JNrMS6Sd4CZnkjQAkci9nqTcT0tbshF/view?usp=sharing)
 
 If the video does not play, download it from the repository and view
 locally.
@@ -37,26 +35,29 @@ locally.
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/its-kanii/AI-Knee-Rehab-Analyzer.git
-
 cd AI-Knee-Rehab-Analyzer
-
+```
 ### 2. Install dependencies
-
+```bash
 pip install opencv-python mediapipe numpy
-
+```
 ### 3. Download model file
 
-Download from:\
-https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/latest/pose_landmarker_lite.task
+Download from:
+[MediaPipe](https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/latest/pose_landmarker_lite.task)
 
-Rename the file to: pose_landmarker.task\
+Rename the file to:
+```bash
+ pose_landmarker.task
+```
 Place it in the project folder.
 
 ### 4. Run the project
-
+```bash
 python main.py
-
+```
 ## How it Works
 
 -   Detects human pose using MediaPipe
